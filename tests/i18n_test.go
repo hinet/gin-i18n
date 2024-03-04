@@ -14,5 +14,5 @@ func test(t *testing.T) {
 		log.Fatalf("load i18n file failed %v", err)
 	}
 	translator.SetLanguage(language.Make("zh-CN"))
-	translator.Translate("home.welcome!", nil)
+	println(t.Translate("welcome {name}!!", map[string]string{"name":"liming"}))
 }
