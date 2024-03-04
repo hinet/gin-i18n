@@ -2,7 +2,7 @@
 Customized international multilingual support for gin, built on **golangorg/x/text/language** and supporting GRPC server calls
 
 ```shell
-go get -u https://github.com/hinet/gin-i18n
+go get -u github.com/hinet/gin-i18n
 ```
 
 Using for GRPC
