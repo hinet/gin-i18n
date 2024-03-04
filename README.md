@@ -1,2 +1,2 @@
 # gin-i18n
-Customized international multilingual support for gin. supporting GRPC server calls
+Customized international multilingual support for gin, built on **golangorg/x/text/language** and supporting GRPC server calls
