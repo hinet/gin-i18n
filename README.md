@@ -10,11 +10,13 @@ Using for GRPC
 ```go
 import (
     "google.golang.org/grpc"
+    i18n "github.com/hinet/gin-i18n"
 )
 
 grpc.NewServer(
     grpc.UnaryInterceptor(i18n.LanguageInterceptor),
 )
+
 //services
 
 func login(ctx context.Context) {
