@@ -1,4 +1,4 @@
-module hinet/gin-i18n
+module github.com/hinet/gin-i18n
 
 go 1.21.0
 
