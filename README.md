@@ -22,6 +22,6 @@ grpc.NewServer(
 
 func login(ctx context.Context) {
     t := i18n.GetTranslator()
-    println(t.Translate("home.welcome!", nil))
+    println(t.Translate("welcome {name}!!", map[string]string{"name":"liming"}))
 }
 ```
