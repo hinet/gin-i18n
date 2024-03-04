@@ -1,5 +1,5 @@
 {
   "home":{
-    "welcome!": "welcome!"
+    "welcome {name}!": "welcome {name}!"
   }
 }
